@@ -1,3 +1,5 @@
+{% for post in posts %} {{ post }}{% endfor %}
+
 <html>
     <head>
         <title>
@@ -12,5 +14,3 @@
 
 {{ posts }}
 <QuerySet [<Post: My second post>, <Post: My first post>] >
-    {% for post in posts %} {{ post }}{% endfor %}
-    
